@@ -11,6 +11,6 @@ var filteredArray: [Int] = []
 
 for number in numberArray {
     if (number / 3 == 0) {
-        print(filteredArray+= [number])
+        filteredArray += [number]
     }
 }
